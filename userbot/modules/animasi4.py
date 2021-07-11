@@ -31,7 +31,7 @@ async def koc(e):
         await e.edit("MY BABY")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
-        await e.edit("SAYANG KAMU💞")
+        await e.edit("SAYANG KAMU SUNDALA 💞")
 
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
