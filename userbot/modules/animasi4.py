@@ -5,7 +5,7 @@ from telethon import events
 import asyncio
 
 
-@register(outgoing=True, pattern="^.sayang$")
+@register(outgoing=True, pattern="^.sayang1$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("I LOVEE YOUUU 💕")
@@ -442,7 +442,7 @@ CMD_HELP.update({
     \n↳ : Buat bercandaan, kalo gasuka jangan dipake.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cinta`\
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang1`\
     \n↳ : Berubah menjadi kadal.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean`\
     \n↳ : Kasih aja buat orang yang sangean."
